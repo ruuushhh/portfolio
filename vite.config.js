@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
-import three from 'three';
+import gsap from "gsap";
 
 export default defineConfig({
-    plugins: [three()],
+    plugins: [gsap()],
     base: '/'
 })
